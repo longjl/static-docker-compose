@@ -1,0 +1,10 @@
+static:
+  image: abiosoft/caddy
+  ports:
+   - "2015:2015"
+  volumes:
+   - .volumes/caddy/Caddyfile:/etc/Caddyfile:ro
+   - .volumes/webapp:/srv
+  environment:
+    VIRTUAL_HOST: 112.74.107.49
+    VIRTUAL_PORT: 2015
