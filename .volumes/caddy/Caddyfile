@@ -1,0 +1,5 @@
+# https://caddyserver.com/docs/caddyfile
+0.0.0.0:2015
+log stdout
+errors stderr
+ext .html .htm .php jpg jpeg png gif css js pdf mp3 mp4 flv swf
